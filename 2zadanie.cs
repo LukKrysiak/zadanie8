@@ -4,7 +4,7 @@ namespace cwiczenie_8
 {
     enum KlasaRzadkosci
     {
-        Powrzechny = 1,
+        Powszechny = 1,
         Rzadki,
         Unikalny,
         Epicki
@@ -105,7 +105,7 @@ namespace cwiczenie_8
         {
             Przedmiot[] przedmioty = new Przedmiot[3];
 
-            Wypelnij(ref przedmioty[0], 1.5f, 10, "Miecz", KlasaRzadkosci.Powrzechny, TypPrzedmiotu.Bron);
+            Wypelnij(ref przedmioty[0], 1.5f, 10, "Miecz", KlasaRzadkosci.Powszechny, TypPrzedmiotu.Bron);
             Wypelnij(ref przedmioty[1], 2.5f, 1000, "Naszyjnik ochrony", KlasaRzadkosci.Unikalny, TypPrzedmiotu.Amulet);
             Wypelnij(ref przedmioty[2], 3.5f, 100000, "Zbroja smoka", KlasaRzadkosci.Epicki, TypPrzedmiotu.Zbroja);
 
